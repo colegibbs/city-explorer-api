@@ -15,6 +15,8 @@ Download express, dotenv, and cors. Change port in sample.env for relevant use.
 
 Node, Express, Dotenv, Cors
 
+![WRRC](./Lab%2007%20WRRC.png)
+
 ## Change Log
 
 ### Name of feature: Set up your server repository
