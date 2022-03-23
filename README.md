@@ -5,7 +5,7 @@
 
 ## Overview
 
-Backend server for city-explore front end. 
+Backend server for city-explore front end.
 
 ## Getting Started
 
