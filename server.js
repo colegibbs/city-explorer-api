@@ -31,7 +31,20 @@ app.get('/weather',  async (req, res) => {
   }
 });
 
-app.get('*', (req, res) => {
+app.get('movies', async (req, res) => {
+  try{
+    let city = req.query.city;
+    let url = `https://api.themoviedb.org/3/search/movie?api_key=${MOVIE_API_KEY}&query=${city}`;
+    let movieData = await axios.get(url);
+    let selectedData = movieData.data.results.map(movieObj => new Movie(movieObj));
+    res.send(selectedData);
+  }
+  catch (error) {
+    next(error);
+  }
+})
+
+app.get('/*', (req, res) => {
   res.send('What you are looking for doesn\'t exist.');
 })
 
@@ -45,6 +58,12 @@ class Forecast {
   constructor(weatherObj) {
     this.date = weatherObj.valid_date;
     this.description = weatherObj.weather.description;
+  }
+}
+
+class Movie {
+  constructor(movieObj) {
+    this.name = movieObj.original_title;
   }
 }
 
