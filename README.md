@@ -61,6 +61,7 @@ Download express, dotenv, cors, axios. Change sample.env for relevant use.
 ## Architecture 2
 
 ![WRRC](./lab-08-wrrc%20copy.jpg)
+![WRRC](./lab-09-wrrc.jpg)
 
 Node, Express, Dotenv, Cors, axios
 
