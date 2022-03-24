@@ -51,3 +51,27 @@ Actual time needed to complete: 30 min
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+**Version**: 2.0.0 (increment the patch/fix version number if you make more commits past your first submission)
+
+## Getting Started 2
+
+Download express, dotenv, cors, axios. Change sample.env for relevant use.
+
+## Architecture 2
+
+![WRRC](./lab-08-wrrc%20copy.jpg)
+
+Node, Express, Dotenv, Cors, axios
+
+## Change Log 2
+
+### Name of feature: Weather(live)
+
+Estimate of time needed to complete: 1hr
+
+Start time: 7 pm
+
+Finish time: _____
+
+Actual time needed to complete: _____
