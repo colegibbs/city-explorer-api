@@ -72,6 +72,16 @@ Estimate of time needed to complete: 1hr
 
 Start time: 7 pm
 
-Finish time: _____
+Finish time: 9 pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 2 hrs
+
+### Name of feature: Movies
+
+Estimate of time needed to complete: 1hr
+
+Start time: 9 pm
+
+Finish time: 10 pm
+
+Actual time needed to complete: 1 hrs
