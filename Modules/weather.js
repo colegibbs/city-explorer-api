@@ -2,7 +2,6 @@
 
 let cache = require('./cache.js');
 
-module.exports = getWeather;
 
 function getWeather(latitude, longitude) {
   const key = 'weather-' + latitude + longitude;
@@ -38,3 +37,5 @@ class Weather {
     this.time = day.datetime;
   }
 }
+
+module.exports = getWeather;
